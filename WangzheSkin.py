@@ -14,9 +14,9 @@ def downloadPic():
     i = 0
     for j in hero_number:
         # 创建文件夹
-        os.makedirs("C:\\Users\\leipeng\\Desktop\\skin\\" + hero_name[i])#原因是因为os.listdir()只能创建一级目录。而os.makedirs()可以创建多级目录。
+        os.makedirs("C:\\Users\\XXXXX\\XXXXX\\skin\\" + hero_name[i])#原因是因为os.listdir()只能创建一级目录。而os.makedirs()可以创建多级目录。
         # 进入创建好的文件夹
-        os.chdir("C:\\Users\\leipeng\\Desktop\\skin\\" + hero_name[i])
+        os.chdir("C:\\Users\\XXXXX\\XXXX\\skin\\" + hero_name[i])
         i += 1
         for k in range(10):
             # 拼接url
